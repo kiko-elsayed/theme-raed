@@ -856,6 +856,21 @@
                     "required": false
                 },
                 {
+                    "id": "Banner_btn_text",
+                    "type": "string",
+                    "format": "text",
+                    "label": "String",
+                    "description": "أضف العنوان هنا",
+                    "labelHTML": null,
+                    "placeholder": "أضف عنوان المقاله",
+                    "icon": "sicon-format-text-alt",
+                    "value": null,
+                    "multilanguage": false,
+                    "required": false,
+                    "minLength": 6,
+                    "maxLength": "100"
+                },
+                {
                     "type": "items",
                     "icon": "sicon-link",
                     "label": "الرابط",
