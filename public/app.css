@@ -5846,6 +5846,11 @@ input[type=radio].sr-only:checked ~ div.landing-page > header:before {
   text-align: justify;
   font-size: 18px;
 }
+.Banner_Container .Banner_Container_Btn {
+  width: 120px;
+  padding: 10px;
+  font-size: 18px;
+}
 body.mm-ocd-opened,
 body.modal-is-open,
 body.fancybox-open {
