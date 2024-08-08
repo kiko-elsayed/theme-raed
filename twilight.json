@@ -943,10 +943,10 @@
             "path": "home.Side_Banar",
             "fields": [
                 {
-                    "id": "collection.string",
+                    "id": "Side_info_title",
                     "type": "string",
                     "format": "text",
-                    "label": "String",
+                    "label": "Side_info_title",
                     "description": "أضف النص",
                     "labelHTML": null,
                     "placeholder": "أضف النص",
@@ -958,10 +958,10 @@
                     "maxLength": 30
                 },
                 {
-                    "id": "collection.string_desc",
+                    "id": "Side_info_desc",
                     "type": "string",
                     "format": "text",
-                    "label": "String copy",
+                    "label": "Side_info_desc",
                     "description": "أضف وصف",
                     "labelHTML": null,
                     "placeholder": "أضف وصف",
@@ -976,9 +976,9 @@
                     "type": "items",
                     "icon": "sicon-link",
                     "label": "الرابط",
-                    "id": "collection.Side_info_url",
-                    "value": null,
-                    "description": "",
+                    "id": "Side_info_btn",
+                    "value": [],
+                    "description": null,
                     "required": false,
                     "format": "variable-list",
                     "searchable": true,
