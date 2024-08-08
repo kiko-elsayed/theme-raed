@@ -953,22 +953,34 @@
                     "icon": "sicon-list-add",
                     "fields": [
                         {
-                            "id": "collection.Side_info_title",
-                            "type": "static",
-                            "format": "title",
-                            "label": "Title",
+                            "id": "collection.string",
+                            "type": "string",
+                            "format": "text",
+                            "label": "String",
+                            "description": "أضف النص",
+                            "labelHTML": null,
+                            "placeholder": "أضف النص",
+                            "icon": "sicon-format-text-alt",
                             "value": null,
-                            "variant": "h2",
-                            "icon": "sicon-format-text"
+                            "multilanguage": false,
+                            "required": false,
+                            "minLength": 6,
+                            "maxLength": 30
                         },
                         {
-                            "id": "collection.Side_info_description",
-                            "type": "static",
-                            "format": "description",
-                            "label": "Description",
+                            "id": "collection.string_copy",
+                            "type": "string",
+                            "format": "text",
+                            "label": "String copy",
+                            "description": "أضف وصف",
+                            "labelHTML": null,
+                            "placeholder": "أضف وصف",
+                            "icon": "sicon-format-text-alt",
                             "value": null,
-                            "variant": "h1",
-                            "icon": "sicon-format-size"
+                            "multilanguage": false,
+                            "required": false,
+                            "minLength": 6,
+                            "maxLength": "500"
                         },
                         {
                             "id": "collection.Side_info_url",
