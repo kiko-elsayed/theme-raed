@@ -957,7 +957,7 @@
                             "type": "static",
                             "format": "title",
                             "label": "Title",
-                            "value": "أضف عنوان",
+                            "value": null,
                             "variant": "h2",
                             "icon": "sicon-format-text"
                         },
@@ -966,7 +966,7 @@
                             "type": "static",
                             "format": "description",
                             "label": "Description",
-                            "value": "أضف وصف",
+                            "value": null,
                             "variant": "h1",
                             "icon": "sicon-format-size"
                         },
