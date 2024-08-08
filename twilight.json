@@ -935,6 +935,13 @@
                     ]
                 }
             ]
+        },
+        {
+            "key": "4987eefb-80f7-46aa-98a9-cce4309603de",
+            "title": "معلومات المتجر",
+            "icon": "sicon-store",
+            "path": "home.StoreInfo",
+            "fields": []
         }
     ],
     "support_url": "https://salla.com/",
