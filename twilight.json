@@ -868,7 +868,7 @@
                     "value": null,
                     "required": false,
                     "minLength": "0",
-                    "maxLength": "1"
+                    "maxLength": "500"
                 }
             ]
         }
