@@ -5850,6 +5850,9 @@ input[type=radio].sr-only:checked ~ div.landing-page > header:before {
   width: 120px;
   padding: 10px;
   font-size: 18px;
+  border: 2px solid rgb(165, 165, 165);
+  background-color: rgb(0, 35, 85);
+  color: white;
 }
 body.mm-ocd-opened,
 body.modal-is-open,
