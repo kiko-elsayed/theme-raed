@@ -842,6 +842,18 @@
                     "required": false,
                     "minLength": "10",
                     "maxLength": "400"
+                },
+                {
+                    "id": "Banner_img_karim",
+                    "type": "string",
+                    "format": "image",
+                    "label": "Image",
+                    "description": "أضف الخلفية",
+                    "labelHTML": null,
+                    "placeholder": "أضف الخلفية",
+                    "icon": "sicon-image",
+                    "value": null,
+                    "required": false
                 }
             ]
         }
