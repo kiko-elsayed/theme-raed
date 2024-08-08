@@ -941,7 +941,68 @@
             "title": "Side-Info",
             "icon": "sicon-store",
             "path": "home.Side_Banar",
-            "fields": []
+            "fields": [
+                {
+                    "id": "collection",
+                    "type": "collection",
+                    "format": "collection",
+                    "label": "Collection",
+                    "description": "عنوان الفقره",
+                    "labelHTML": null,
+                    "item_label": "عنوان الفقره",
+                    "icon": "sicon-list-add",
+                    "fields": [
+                        {
+                            "id": "collection.Side_info_title",
+                            "type": "static",
+                            "format": "title",
+                            "label": "Title",
+                            "value": "أضف عنوان",
+                            "variant": "h2",
+                            "icon": "sicon-format-text"
+                        },
+                        {
+                            "id": "collection.Side_info_description",
+                            "type": "static",
+                            "format": "description",
+                            "label": "Description",
+                            "value": "أضف وصف",
+                            "variant": "h1",
+                            "icon": "sicon-format-size"
+                        },
+                        {
+                            "id": "collection.Side_info_url",
+                            "type": "string",
+                            "format": "url",
+                            "inputType": "url",
+                            "label": "URL",
+                            "description": "أضف اللينك",
+                            "labelHTML": null,
+                            "placeholder": "أضف اللينك",
+                            "icon": "sicon-link",
+                            "value": null,
+                            "required": false,
+                            "minLength": 6,
+                            "maxLength": "100"
+                        }
+                    ],
+                    "value": [],
+                    "minLength": "1",
+                    "maxLength": "100"
+                },
+                {
+                    "id": "Side_info_image",
+                    "type": "string",
+                    "format": "image",
+                    "label": "Image",
+                    "description": "أضف صورة",
+                    "labelHTML": null,
+                    "placeholder": "أضف صورة",
+                    "icon": "sicon-image",
+                    "value": null,
+                    "required": false
+                }
+            ]
         }
     ],
     "support_url": "https://salla.com/",
