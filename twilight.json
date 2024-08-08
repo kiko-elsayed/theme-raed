@@ -935,6 +935,13 @@
                     ]
                 }
             ]
+        },
+        {
+            "key": "66218f8e-50ea-4630-9b9c-6530a8430fd0",
+            "title": "Side-Info",
+            "icon": "sicon-store",
+            "path": "home.Side_Banar",
+            "fields": []
         }
     ],
     "support_url": "https://salla.com/",
