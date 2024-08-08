@@ -867,8 +867,8 @@
                     "icon": "sicon-link",
                     "value": null,
                     "required": false,
-                    "minLength": 6,
-                    "maxLength": 30
+                    "minLength": "0",
+                    "maxLength": "1"
                 }
             ]
         }
