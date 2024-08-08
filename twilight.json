@@ -812,7 +812,38 @@
             "title": "Bannar",
             "icon": "sicon-store",
             "path": "home.karim-banners",
-            "fields": []
+            "fields": [
+                {
+                    "id": "Banner_title_karim",
+                    "type": "string",
+                    "format": "text",
+                    "label": "String",
+                    "description": "أضف العنوان هنا",
+                    "labelHTML": null,
+                    "placeholder": "أضف عنوان المقاله",
+                    "icon": "sicon-format-text-alt",
+                    "value": null,
+                    "multilanguage": false,
+                    "required": false,
+                    "minLength": 6,
+                    "maxLength": "100"
+                },
+                {
+                    "id": "Banner_text_karim",
+                    "type": "string",
+                    "format": "textarea",
+                    "label": "Text Area",
+                    "description": "أضف الوصف",
+                    "labelHTML": null,
+                    "placeholder": "أضف الوصف",
+                    "icon": "sicon-typography",
+                    "value": null,
+                    "multilanguage": false,
+                    "required": false,
+                    "minLength": "10",
+                    "maxLength": "400"
+                }
+            ]
         }
     ],
     "support_url": "https://salla.com/",
