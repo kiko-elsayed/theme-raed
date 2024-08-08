@@ -5830,17 +5830,19 @@ input[type=radio].sr-only:checked ~ div.landing-page > header:before {
   display: hidden;
 }
 .Banner_Container {
-  width: 80%;
+  width: 98%;
   margin: 20px auto;
   padding: 20px;
   box-shadow: 1px 1px 5px 1px rgb(174, 174, 174);
 }
 .Banner_Container .Banner_Container_header {
-  text-align: center;
-  color: rgb(70, 70, 70);
+  font-size: 50px;
+  margin: 0px 50px 20px;
+  color: rgb(0, 35, 85);
   text-shadow: 1px 1px #f33232;
 }
 .Banner_Container .Banner_Container_Content {
+  width: 35%;
   text-align: justify;
   font-size: 18px;
 }
