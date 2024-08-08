@@ -806,6 +806,13 @@
                     ]
                 }
             ]
+        },
+        {
+            "key": "751460ac-8f22-4d56-a296-4c227b91d0b2",
+            "title": "Bannar",
+            "icon": "sicon-store",
+            "path": "home.karim-banners",
+            "fields": []
         }
     ],
     "support_url": "https://salla.com/",
