@@ -1036,8 +1036,6 @@
                         }
                     ]
                 },
-
-
                 {
                     "id": "Side_info_image",
                     "type": "string",
